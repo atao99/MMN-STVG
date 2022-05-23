@@ -5,46 +5,6 @@ class DatasetCatalog(object):
     DATA_DIR = "datasets"
 
     DATASETS = {
-        "tacos_train":{
-            "video_dir": "/data0/wzz/data/TACoS/videos",
-            "ann_file": "/data0/wzz/data/TACoS/train.json",
-            "feat_file": "/data0/wzz/data/TACoS/tall_c3d_features.hdf5",
-        },
-        "tacos_val":{
-            "video_dir": "/data0/wzz/data/TACoS/videos",
-            "ann_file": "/data0/wzz/data/TACoS/val.json",
-            "feat_file": "/data0/wzz/data/TACoS/tall_c3d_features.hdf5",
-        },
-        "tacos_test":{
-            "video_dir": "/data0/wzz/data/TACoS/videos",
-            "ann_file": "/data0/wzz/data/TACoS/test.json",
-            "feat_file": "/data0/wzz/data/TACoS/tall_c3d_features.hdf5",
-        },
-        "activitynet_train":{
-            "video_dir": "/data0/wzz/data/ActivityNet/videos",
-            "ann_file": "/data0/wzz/data/ActivityNet/train.json",
-            "feat_file": "/data0/wzz/data/ActivityNet/sub_activitynet_v1-3.c3d.hdf5",
-        },
-        "activitynet_val":{
-            "video_dir": "/data0/wzz/data/ActivityNet/videos",
-            "ann_file": "/data0/wzz/data/ActivityNet/val.json",
-            "feat_file": "/data0/wzz/data/ActivityNet/sub_activitynet_v1-3.c3d.hdf5",
-        },
-        "activitynet_test":{
-            "video_dir": "/data0/wzz/data/ActivityNet/videos",
-            "ann_file": "/data0/wzz/data/ActivityNet/test.json",
-            "feat_file": "/data0/wzz/data/ActivityNet/sub_activitynet_v1-3.c3d.hdf5",
-        },
-        "charades_train": {
-            "video_dir": "/data0/wzz/data/Charades_STA/videos",
-            "ann_file": "/data0/wzz/data/Charades_STA/charades_train.json",
-            "feat_file": "/data0/wzz/data/Charades_STA/vgg_rgb_features.hdf5",
-        },
-        "charades_test": {
-            "video_dir": "/data0/wzz/data/Charades_STA/videos",
-            "ann_file": "/data0/wzz/data/Charades_STA/charades_test.json",
-            "feat_file": "/data0/wzz/data/Charades_STA/vgg_rgb_features.hdf5",
-        },
         "stvg_train": {
             'feat_roots': ['/path/to/HC-STVG-Files/csn_train_feats', '/path/to/HC-STVG-Files/flow_train_feats'],
             'prepdir': '/path/to/HC-STVG-Files/train_prep',
